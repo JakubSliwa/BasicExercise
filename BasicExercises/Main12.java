@@ -16,7 +16,7 @@ public class Main12 {
 		System.out.println("Wpisane liczby to: " + a + ", " + b + " " + c);
 		System.out.println("Obliczam średnią ...");
 		System.out.println("Średnia to: " + ((a + b + c) / 3));
-
+		scan.close();
 	}
 
 }
