@@ -15,6 +15,7 @@ public class Main37 {
 		sb.reverse();
 		System.out.println(sb.toString());
 		scan.close();
+
 	}
 
 }
