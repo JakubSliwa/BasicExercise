@@ -1,10 +1,10 @@
 package BasicExercises;
 
-public class Main41 {
+public class Main42 {
 
 	public static void main(String[] args) {
 		int chr = 'A';
-		System.out.println("The ASCII value of A is :" + chr);
+		System.out.println("The ASCII value of Z is :" + chr);
 	}
 }
 
