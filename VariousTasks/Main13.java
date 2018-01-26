@@ -8,14 +8,14 @@ public class Main13 {
 		int resultWhile = 0;
 
 		for (int i = 1; i <= 10; i++) {
-			int added = i;
-			resultFor += added;
+
+			resultFor += i;
 		}
 
 		int i = 1;
 		while (i <= 10) {
-			int added = i;
-			resultWhile += added;
+
+			resultWhile += i;
 			i++;
 		}
 		System.out.println(resultFor);
