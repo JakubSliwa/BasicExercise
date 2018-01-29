@@ -1,6 +1,6 @@
 package VariousTasks;
 
-public class Main29 {
+public class Main36 {
 
 	public static void main(String[] args) {
 
