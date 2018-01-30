@@ -6,7 +6,7 @@ import java.util.Random;
 public class Main43 {
 
 	public static void main(String[] args) {
-		Random rand = new Random(20);
+		Random rand = new Random();
 
 		int[] randTab = new int[20];
 
