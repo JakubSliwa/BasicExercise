@@ -6,8 +6,8 @@ import java.util.Random;
 public class Main47 {
 
 	public static void main(String[] args) {
-		int[] firstTab = createTable(2);
-		int[] secondTab = createTable(2);
+		int[] firstTab = createTable(22);
+		int[] secondTab = createTable(3);
 
 		printTable(firstTab);
 		printTable(secondTab);
@@ -34,15 +34,19 @@ public class Main47 {
 		int[] joinedTabA = new int[tabA.length];
 		int[] joinedTabB = new int[tabB.length];
 
+		int[] tempTabA = Arrays.copyOf(tabA, tabB.length);
+		int[] tempTabB = Arrays.copyOf(tabB, tabA.length);
+
 		if (tabA.length >= tabB.length) {
+
 			for (int i = 0; i < tabA.length; i++) {
-				joinedTabA[i] = tabA[i] + tabB[i];
+				joinedTabA[i] = tabA[i] + tempTabB[i];
 			}
 			return joinedTabA;
 		} else {
 			for (int i = 0; i < tabB.length; i++) {
 
-				joinedTabB[i] = tabA[((tabB.length - tabA.length))+i] + tabB[i];
+				joinedTabB[i] = tempTabA[i] + tabB[i];
 			}
 			return joinedTabB;
 		}
