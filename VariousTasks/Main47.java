@@ -7,7 +7,7 @@ public class Main47 {
 
 	public static void main(String[] args) {
 		int[] firstTab = createTable(22);
-		int[] secondTab = createTable(3);
+		int[] secondTab = createTable(32);
 
 		printTable(firstTab);
 		printTable(secondTab);
