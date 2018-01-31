@@ -8,7 +8,7 @@ public class Main53 {
 
 		System.out.println(palindromChk(str));
 	}
-
+	
 	static boolean palindromChk(String str) {
 		boolean result = true;
 		String strLower = str.toLowerCase().replaceAll(" ", "");
