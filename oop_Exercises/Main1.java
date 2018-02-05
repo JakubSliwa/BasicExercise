@@ -3,13 +3,18 @@ package oop_Exercises;
 public class Main1 {
 
 	public static void main(String[] args) {
-		
 
+		Cat cat = new Cat();
+		Dog dog = new Dog();
+
+		if (cat.equals(dog)) {
+			System.out.println("Equals");
+		} else {
+			System.out.println("Not equals");
+		}
 	}
 
 }
-
-
 
 /*
  * #### Zadanie 1 – rozwiązywane z wykładowcą. Stwórz klasę `Cat`.
