@@ -1,6 +1,6 @@
 package oop_Exercises;
 
-public class Main1 {
+public class Task1 {
 
 	public static void main(String[] args) {
 
